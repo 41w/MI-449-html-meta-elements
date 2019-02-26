@@ -1,0 +1,43 @@
+  body {
+    background-color: rgba(144,193,198,0.4);
+    color: black;
+    text-align: center;
+    max-width: 900px;
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  p {
+    text-align: left;
+    font-size: 22px;
+    line-height: 130%;
+  }
+
+  footer {
+    text-align: right;
+    color: grey;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  figcaption {
+    font-size: 20px;
+    color: darkblue;
+  }
+
+  .column {
+    flex: 50%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .row {
+    display: flex;
+  }
